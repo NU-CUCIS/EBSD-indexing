@@ -7,27 +7,38 @@ It also contains modules for doing benchmark comparison with other machine learn
 ## Installation Requirements
 
 Pyton 2.7
+
 numpy 1.15.4
+
 TensorFlow 1.12
+
 Theano 1.0.1
+
 h5py 2.9.0
 
 Package Contents
 ================
-`benchmark_batch.py` - implementation of a benchmark system 1-NN method with batch sizes based on dictionary look-up.
+* `benchmark_batch.py` - implementation of a benchmark system 1-NN method with batch sizes based on dictionary look-up.
 Algorithm:
-`dictionary.py` - data loading and preprocessing for labeling and benchmarking.
-`load_data.py` - data loading and preprocessing for training the CNN model from the .h5 files.
-`model.py` - code for training CNN model.
-`compute_disorientation.py` - implementation of a differential approximation to the disorientation function between two pairs of orientations using TensorFlow with minibatch processing for speed up.
-`train_utils.py` - utility code for training the model.
-`training-data` - Please follow the README file inside the folder to download the required dataset.
-'sample' - contains log file from running the model on the dataset used in the paper [1].
+
+* `dictionary.py` - data loading and preprocessing for labeling and benchmarking.
+
+* `load_data.py` - data loading and preprocessing for training the CNN model from the .h5 files.
+
+* `model.py` - code for training CNN model.
+
+* `compute_disorientation.py` - implementation of a differential approximation to the disorientation function between two pairs of orientations using TensorFlow with minibatch processing for speed up.
+* `train_utils.py` - utility code for training the model.
+
+* `training-data` - Please follow the README file inside the folder to download the required dataset.
+
+* `sample` - contains log file from running the model on the dataset used in the paper [1].
 
 To Run
 ======
 
 The CNN model can be run by using the following command:
+
 `python model.py`
 
 The training files and test/validation files are hard coded in the code along with the CNN model architecture and hyperparameters. The training dataset is a collection of 60x60 EBSD images with orientation angles in Euler angles. The code contains the required preprocessing and scaling done before the actual training of the model.
