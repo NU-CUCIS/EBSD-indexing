@@ -1,0 +1,1 @@
+The datasets used for traiing and testing/validation are available at http://muri.materials.cmu.edu/?p=1240. The training files are 'EBSDDictionary_100.h5' and 'EBSDDictionary_50.h5', the test/validation file used in this work is 'EBSDrandom.h5'. Please download these files and copy to this folder before running the model training code.
