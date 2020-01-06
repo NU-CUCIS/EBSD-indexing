@@ -16,8 +16,8 @@ Theano 1.0.1
 
 h5py 2.9.0
 
-Package Contents
-================
+## Source Files
+
 * `benchmark_batch.py` - implementation of a benchmark system 1-NN method with batch sizes based on dictionary look-up.
 Algorithm:
 
@@ -34,20 +34,21 @@ Algorithm:
 
 * `sample` - contains log file from running the model on the dataset used in the paper [1].
 
-To Run
-======
+## To Run
 
 The CNN model can be run by using the following command:
 
 `python model.py`
 
-The training files and test/validation files are hard coded in the code along with the CNN model architecture and hyperparameters. The training dataset is a collection of 60x60 EBSD images with orientation angles in Euler angles. The code contains the required preprocessing and scaling done before the actual training of the model.
+The training files and test/validation files are hard coded in the code along with the CNN model architecture and hyperparameters. The training dataset is a collection of 60x60 EBSD images with orientation angles in Euler angles. The code contains the required preprocessing and scaling done before the actual training of the model. The expected output log from running the CNN model on the training dataset used in the paper is provided in the `sample` folder.
 
 
 
-## Citation
+## Publications
 
-D. Jha, S. Singh, R. Al-Bahrani, W.-keng Liao, A. Choudhary, M. De Graef, and A. Agrawal, "Extracting "Extracting grain orientations from ebsd patterns of polycrystalline materials using convolutional neural networks." Microscopy and Microanalysis 24, no. 5 (2018): 497-502 [DOI:10.1017/S1431927618015131] [<a href="https://www.cambridge.org/core/services/aop-cambridge-core/content/view/4B97FCE81ED02FE7F22148500FD24868/S1431927618015131a.pdf/extracting_grain_orientations_from_ebsd_patterns_of_polycrystalline_materials_using_convolutional_neural_networks.pdf">PDF</a>].
+Please cite the following paper if you are using this model and code:
+
+Dipendra Jha, Saransh Singh, Reda Al-Bahrani, Wei-keng Liao, Alok Choudhary, Marc De Graef, and Ankit Agrawal, "Extracting "Extracting grain orientations from ebsd patterns of polycrystalline materials using convolutional neural networks." Microscopy and Microanalysis 24, no. 5 (2018): 497-502 [DOI:10.1017/S1431927618015131] [<a href="https://www.cambridge.org/core/services/aop-cambridge-core/content/view/4B97FCE81ED02FE7F22148500FD24868/S1431927618015131a.pdf/extracting_grain_orientations_from_ebsd_patterns_of_polycrystalline_materials_using_convolutional_neural_networks.pdf">PDF</a>].
 
 
 ## Questions/Comments
