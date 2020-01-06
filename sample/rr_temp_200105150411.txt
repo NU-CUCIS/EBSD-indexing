@@ -110,3 +110,4 @@
 2020-01-06 10:54:05.759572:Model saved at: /raid/dkj755/git-repos/EBSD-indexing/sample/temp_200105150411/model.ckpt
 2020-01-06 10:54:05.787611:Step 83000 (epoch 14), 840.8 s f_loss: 7.020251 Minibatch loss: 5.977 (2.346, 0.220, 3.412) dis: 1.043, validation loss:  7.073 (2.801, 1.176, 3.096) dis: 1.389, test loss: 7.073 (2.801, 1.176, 3.096) dis: 1.389 learning rate: 0.000049
 2020-01-06 11:08:17.772678:Step 84000 (epoch 14), 841.8 s f_loss: 6.721848 Minibatch loss: 5.802 (2.625, 0.210, 2.967) dis: 0.920, validation loss:  7.074 (2.769, 1.144, 3.161) dis: 1.582, test loss: 7.074 (2.769, 1.144, 3.161) dis: 1.582 learning rate: 0.000049
+2020-01-06 11:22:29.312590:Step 85000 (epoch 14), 841.4 s f_loss: 8.065510 Minibatch loss: 5.961 (2.693, 0.294, 2.974) dis: 2.105, validation loss:  7.025 (2.690, 1.124, 3.212) dis: 2.161, test loss: 7.025 (2.690, 1.124, 3.212) dis: 2.161 learning rate: 0.000049
