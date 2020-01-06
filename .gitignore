@@ -1,3 +1,5 @@
 data*
 *log*
 *.pyc
+*.h5
+sample/temp*
